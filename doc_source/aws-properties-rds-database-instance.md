@@ -560,7 +560,7 @@ Constraints: Must contain from 8 to 128 characters\.
 *Update requires*: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 `MaxAllocatedStorage`  <a name="cfn-rds-dbinstance-maxallocatedstorage"></a>
-The upper limit to which Amazon RDS can automatically scale the storage of the DB instance\.  
+The upper limit to which Amazon RDS can automatically scale the storage of the DB instance\.  [Note that there are constraints on autoscaling, based on storage and instance type](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.StorageTypes.html#USER_PIOPS.Autoscaling).
 *Required*: No  
 *Type*: Integer  
 *Update requires*: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
